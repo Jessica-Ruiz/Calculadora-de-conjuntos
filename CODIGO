@@ -1,0 +1,17 @@
+#podemos empezar igual que en la anterior calculadora implementando un menu 
+#como el siguiente
+def mostrar_menu():
+    print("Calculadora de Conjuntos")
+    print("1. Crear Conjuntos")
+    print("2. Mostrar Combinaciones")
+    print("3. Salir")
+
+def crear_conjuntos():
+    conjunto1 = set(input("Ingrese los elementos del conjunto 1 (separados por comas): ").split(","))
+    conjunto2 = set(input("Ingrese los elementos del conjunto 2 (separados por comas): ").split(","))
+    conjunto3 = set(input("Ingrese los elementos del conjunto 3 (separados por comas): ").split(","))
+    return conjunto1, conjunto2, conjunto3
+
+def mostrar_combinaciones(conjunto1, conjunto2, conjunto3):
+
+#pueden seguir indicando que puede seguir a continuacion o que otra manera aconsejan para crear la calculadora
